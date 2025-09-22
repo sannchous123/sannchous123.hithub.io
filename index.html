@@ -2,17 +2,55 @@
 <html lang="ru">
 <head>
     <title>Название</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.logo
+		{
+			width: 500px;
+            height: 500px;
+			
+		}
+	</style>
 </head>
 
 <body>
+    <div class="centered-text">
     
+	
+	<style>
+	.centered-text {
+		text-align: center;
+	}
+	</style>
+	<header>
+	
+		<h1><span class="site-name">Крутой сайт</span></h1>
+		<img src="https://avatars.mds.yandex.net/i?id=3c800dc8688c467121057afee27813acc8a4336bb45ba4c5-12503299-images-thumbs&n=13" alt="Мой Логотип" id="logo">
+		<nav class="vertical-nav">
+    <a href="index.html" class="nav-link"> Главная страница</a>
+    <a href="about.html" class="nav-link">Внутренняя страница</a>
+    <a href="https://kubsu.ru/" class="nav-link">КубГу</a>
+    
+	</nav>
+	<style>
+	.vertical-nav {
+		display: flex;
+		justify-content: center; 
+		align-items: center;    
+		gap: 30px;
+		padding: 20px;
+		background-color: #00a2ff;
+	}
+	</style>
+	</header>
+	
         <h1>
             Главная страница
         </h1>
         <h2> 
             Ссылки
         </h2>
-        <li><a href="index.html" >Главная страница</a></li>
+        <li><a href="index.html" style="color:red; font-weight:bold;" >Главная страница</a></li>
         <li><a href="about.html" > Внутренняя страница</a></li>
         <li><a href="http://kubsu.ru/" title="Кубанский государственный университет"> КубГу</a></li>
         <li><a href="https://kubsu.ru/" title="Кубанский государственный университет"> КубГу</a></li>
@@ -68,6 +106,60 @@
         <img src = https://avatars.mds.yandex.net/i?id=9a0fd91f4c2ae27fa545b67abfee9dffdce4f693-9181395-images-thumbs&n=13 width="500" color ="red" year = "1980">
         
     </section>
+	
+
+	<table class = "tablic">
+		<tr class = chet>
+			<th>Первый</th>
+			<th>Второй</th>
+			<th>Третий</th>
+			<th>Четвертый</th>
+		</tr>
+		<tr>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+		<tr class = chet>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+		<tr>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+		<tr class = chet>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+		<tr>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+		<tr class = chet>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+		<tr>
+			<td>П</td>
+			<td>У</td>
+			<td>П</td>
+			<td>У</td>
+		</tr>
+	</table>
+
+
 
     <form action="" method="POST">
 		<h3>Форма</h3>
@@ -120,6 +212,14 @@
 		</label>
 		<input type="submit" value="Сохранить" />
 	</form>
+	
+	<footer>
+		(с) Олександр Чил
+	</footer>
     
+
 </body>
+
+
 </html>
+</div>
