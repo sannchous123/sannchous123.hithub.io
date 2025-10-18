@@ -9,6 +9,21 @@
     display: block;
 }
 
+
+.vertical-nav {
+	display: flex;
+	justify-content: center; 
+	align-items: center;    
+	gap: 30px;
+	padding: 20px;
+	background-color: #00a2ff;
+}
+
+.centered-text {
+	text-align: center;
+}
+	
+
  #top{
         margin-bottom: -600px;
         display: flex;
@@ -112,7 +127,4 @@ footer
 {
     background-color: #f33d05;
     width: 100%;
-  
-    
-    
 }
